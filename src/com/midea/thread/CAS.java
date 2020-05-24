@@ -5,7 +5,7 @@ import java.rmi.StubNotFoundException;
 
 //锁的种类: 乐观锁（自旋锁） ，悲观锁（synchronized） ，共享锁(读锁) ， 排他锁（写锁） ， 阶段锁
 
-//compare and set
+//compare and swap
 public class CAS {
     //cas(v,期待值，新值)
     //if v==E
