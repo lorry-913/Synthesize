@@ -10,6 +10,7 @@ public class SolveOcp {
     }
 }
 
+//使用方
 class Draw1{
     void draw(Shape1 s){
         s.draw();
@@ -23,6 +24,7 @@ abstract class Shape1{
     abstract void draw();
 }
 
+//提供方
 class Sanjiaoxing1 extends Shape1{
 
 
