@@ -1,4 +1,4 @@
-package com.midea.thread;
+package com.midea.designmodel.single;
 //懒汉模式（双重检查机制）  线程安全
 public class SingleExample3 {
     //不加volatile线程也安全，但是会发生指令重排序，就会导致在第一个线程new对象时，第二线程拿到对象里面的属性，值是乱序的 synchronized是无法阻止重排序的

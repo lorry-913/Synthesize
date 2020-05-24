@@ -1,4 +1,4 @@
-package com.midea.thread;
+package com.midea.designmodel.single;
 //这里属于懒汉（懒加载）模式
 //虽然达到初始化问题，但是带来了线程不安全问题 第一个线程来了 判断为空new一个 第二个线程临界区来了也为空又new了一个
 public class SingleExample2 {
