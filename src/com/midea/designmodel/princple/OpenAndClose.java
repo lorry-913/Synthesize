@@ -12,7 +12,7 @@ public class OpenAndClose {
 }
 
 class Draw{
-    public void draw(Shape s){
+     void draw(Shape s){
         if(s.type==1){
             drawSan();
         }else if(s.type==2){
@@ -20,28 +20,28 @@ class Draw{
         }
     }
 
-    public void drawSan(){
+     void drawSan(){
         System.out.println("绘制三角形");
     }
 
-    public void drawZheng(){
+     void drawZheng(){
         System.out.println("绘制正方形");
 
     }
 }
 
 class Shape{
-    public int type;
+     int type;
 }
 
 class Sanjiaoxing extends Shape{
-    public Sanjiaoxing(int type){
+     Sanjiaoxing(int type){
         super.type=type;
     }
 }
 
 class Zhengfangx extends Shape{
-    public Zhengfangx(int type){
+     Zhengfangx(int type){
         super.type=type;
     }
 }

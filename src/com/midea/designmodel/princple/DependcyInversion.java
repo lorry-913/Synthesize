@@ -38,12 +38,12 @@ class Wexin implements IReceive{
 
 
 interface IReceive{
-    public void receive();
+    void receive();
 }
 
 class Person{
     //跟接口发生依赖 传递接口
-    public void receive(IReceive receive){
+     void receive(IReceive receive){
         receive.receive();
     }
 }
